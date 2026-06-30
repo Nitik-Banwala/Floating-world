@@ -9,7 +9,7 @@ const VARIANTS = {
   'primary-wide': `${GRADIENT} py-4.75 px-14 text-xl text-white`,
 }
 
-const base = 'cursor-pointer border rounded-2xl duration-500 shadow-[0px_2px_10px_0px_#00000029] font-semibold border-black'
+const base = 'cursor-pointer border hover:scale-102 rounded-2xl duration-500 shadow-[0px_2px_10px_0px_#00000029] font-semibold border-black'
 
 const Button = ({ children, variant = 'primary', className = '', type = 'button', ...props }) => {
   const variantClasses = VARIANTS[variant] || VARIANTS.primary
