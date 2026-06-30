@@ -1,11 +1,12 @@
 import React from 'react'
 import Icons from './common/Icons'
+import Button from './common/Button'
 import { CARD_DATA } from '@/utils/helper'
 
 const Plans = () => {
     return (
         <div>
-            <div className='bg-gray flex items-center px-4 flex-col max-w-[1730.1px] w-full md:pt-[138.1px] pt-[57.1px] md:pb-[151.1px] pb-[97.1px]'>
+            <div className='bg-gray flex mx-auto items-center px-4 flex-col max-w-[1730.1px] w-full md:pt-[138.1px] pt-[57.1px] md:pb-[151.1px] pb-[97.1px]'>
                 <h2 className='text-center flex lg:text-67 md:text-5xl text-4xl w-full mx-auto max-w-200 font-extrabold leading-10 lg:leading-19.25'>We didn’t reinvent the wheel. Just web support</h2>
                 <p className='mt-5.5 text-26 font-medium text-center leading-100'>Expert Website Scaling, Maintenance, & AI Integration </p>
                 <div className='flex flex-row gap-4 flex-wrap justify-center mt-17.5 max-w-[1380.1px] w-full min-[1100px]:justify-between mx-auto'>
@@ -20,7 +21,7 @@ const Plans = () => {
                     })}
                 </div>
                 <div className='h-[107.1px]'>
-                    <button className='bg-[linear-gradient(180deg,#000000_0%,#393939_100%)] hover:shadow-2xl hover:text-red-500 cursor-pointer border rounded-2xl py-4.75 px-12.75 mt-19.5 text-xl hover:mt-18.5 duration-500 shadow-[0px_2px_10px_0px_#00000029] font-semibold text-white border-black'>See Plans </button>
+                    <Button variant="primary" className="mt-19.5">See Plans</Button>
                 </div>
             </div>
         </div>

@@ -2,6 +2,7 @@
 import React from 'react'
 import { useState } from "react";
 import Icons from './common/Icons';
+import Button from './common/Button';
 import { FAQ_DATA } from '@/utils/helper';
 
 
@@ -46,7 +47,7 @@ const Faq = () => {
                     <Icons icon={'faqlogo'} />
                     <h2 className='font-bold md:text-5xl text-3xl leading-14.5 max-w-[400.1px] mt-9.5 text-center'>Book a 15-minute intro call</h2>
                     <div className='h-[95.1px]'>
-                        <button className='bg-[linear-gradient(180deg,#000000_0%,#393939_100%)] hover:shadow-2xl hover:text-red-500 cursor-pointer border rounded-2xl py-4.75 px-11.25 mt-7 text-xl hover:mt-6 duration-500 shadow-[0px_2px_10px_0px_#00000029] font-semibold text-white border-black'>Book a call</button>
+                        <Button variant="primary-wide" className="mt-7">Schedule Now</Button>
                     </div>
                     <div className='flex flex-row mt-15.25 gap-1 '>
                         <p className='sm:text-22 text-base font-medium leading-11 '>Prefer to email? </p>

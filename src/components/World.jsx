@@ -1,5 +1,6 @@
 import React from 'react'
 import Icons from './common/Icons'
+import Button from './common/Button'
 import { WORLD_DATA } from '@/utils/helper'
 
 const World = () => {
@@ -91,7 +92,7 @@ const World = () => {
                         })}
                     </div>
                     <div>
-                        <button className='bg-[linear-gradient(180deg,#000000_0%,#393939_100%)] hover:shadow-2xl hover:text-red-500 cursor-pointer border rounded-2xl py-4.75 px-11.25 mt-11 text-xl hover:mt-10 duration-500 shadow-[0px_2px_10px_0px_#00000029] font-semibold text-white border-black'>Book a call</button>
+                        <Button variant="primary-lg" className="mt-11">Book a call</Button>
                     </div>
                 </div>
             </div>

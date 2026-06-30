@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Icons from './common/Icons'
+import Button from './common/Button'
 import { SLIDER_DATA } from '@/utils/helper'
 import Navbar from './common/Navbar'
 import Link from 'next/link'
@@ -31,7 +32,7 @@ const Hero = () => {
                 <h1 className='font-bold lg:text-100 md:text-8xl sm:text text-5xl text-center lg:leading-26 leading-14 text-white max-w-200'>Scale & grow with ease</h1>
                 <p className='mt-3.25 text-white text-26 text-center font-medium leading-100'>Monthly web maintenance packages for businesses. Cancel anytime</p>
                 <div className='h-[107.1px]'>
-                    <button className='bg-[linear-gradient(180deg,#000000_0%,#393939_100%)] hover:shadow-2xl hover:text-red-500 cursor-pointer border rounded-2xl py-4.75 px-12.75 mt-10 text-xl hover:mt-9 duration-500 shadow-[0px_2px_10px_0px_#00000029] font-semibold text-white border-black'>See Plans </button>
+                    <Button variant="primary" className="mt-10">See Plans</Button>
                 </div>
                 <div className='mt-5.25 flex flex-row gap-3.25 items-center'>
                     <Icons icon={'dote'} />

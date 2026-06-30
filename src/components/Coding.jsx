@@ -42,7 +42,7 @@ const Coding = () => {
                 </div>
             </div>
             <div>
-                <button className='bg-[linear-gradient(180deg,#000000_0%,#393939_100%)] md:hover:mb-[133.1px] md:mb-[129.1px] hover:mb-15 mb-14 hover:shadow-2xl hover:text-red-500 cursor-pointer border rounded-2xl py-4.75 px-11.25 md:mt-25 text-xl md:hover:mt-24 hover:mt-12 mt-13 duration-500 shadow-[0px_2px_10px_0px_#00000029] font-semibold text-white border-black'>Download Case Studies</button>
+                <Button variant="primary" className="md:mb-[129.1px] mb-14 md:mt-25 mt-13 px-11.25">Download Case Studies</Button>
             </div>
         </div>
     )

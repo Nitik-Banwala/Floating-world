@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { DISCRIPTION } from '@/utils/helper'
 import Icons from './common/Icons'
+import Button from './common/Button'
 
 const Money = () => {
     return (
@@ -13,8 +14,8 @@ const Money = () => {
                     <Image src={'/assets/images/money.png'}
                         width={613}
                         height={118}
-                         alt='money'
-                         />
+                        alt='money'
+                    />
                 </div>
             </div>
             <div className='bg-gray'>
@@ -22,11 +23,11 @@ const Money = () => {
                     <h1 className='lg:text-67 md:text-5xl text-4xl text-black font-extrabold leading-10 lg:leading-18.25 max-w-150 '>It’s “you’ll never go back” better</h1>
                     <p className='text-26 font-medium text-black leading-9 mt-8.25'>Floatingworld replaces unreliable freelancers and expensive agencies for one flat monthly fee, with unwavering (fanatical?) support that will blow your mind.</p>
                     <div className='h-[107.1px]'>
-                        <button className='bg-[linear-gradient(180deg,#000000_0%,#393939_100%)] hover:shadow-2xl hover:text-red-500 cursor-pointer border rounded-2xl py-4.75 px-12.75 mt-17.5 text-xl hover:mt-16.5 duration-500 shadow-[0px_2px_10px_0px_#00000029] font-semibold text-white border-black'>See Plans </button>
+                        <Button variant="primary" className="mt-17.5">See Plans</Button>
                     </div>
                 </div>
-            </div> 
-                <div className=' max-w-124 flex -mt-25 px-4 justify-end w-full mx-auto'>
+            </div>
+            <div className=' max-w-124 flex -mt-25 px-4 justify-end w-full mx-auto'>
                 <Icons icon={'downarrows'} />
             </div>
             <div className='bg-white flex lg:items-center px-4 lg:flex-row flex-col gap-10 pt-9 justify-between lg:gap-4 md:pb-[138.1px] pb-[57.1px] max-w-[1235.1] mx-auto w-full'>
@@ -38,7 +39,7 @@ const Money = () => {
                         <p className='text-lg font-medium sm:hidden flex leading-100'>Grant Longhurst
                             HighPCI.com</p>
                         <Image src={'/assets/images/owner.png'}
-                        alt='owner'
+                            alt='owner'
                             width={355}
                             height={285} />
                     </div>
