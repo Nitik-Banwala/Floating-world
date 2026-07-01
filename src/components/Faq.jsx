@@ -27,7 +27,7 @@ const Faq = () => {
                                 <div key={index} >
                                     <button type="button" onClick={() => toggle(index)} aria-expanded={isOpen} className={` ${index === 0 ? "mt-11.75" : "mt-7.75"} flex max-w-150 w-full items-center justify-between gap-3 text-left text-base font-medium text-gray-900`}>
                                         <span className='text-xl font-medium text-black leading-100'>{item.question}</span>
-                                        <div className={` ${isOpen ? "rotate-180" : ""}`}>
+                                        <div className={` ${isOpen ? "rotate-180" : ""} cursor-pointer`}>
                                             <Icons icon={'downarow'} />
                                         </div>
                                     </button>

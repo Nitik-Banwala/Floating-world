@@ -29,7 +29,7 @@ const Hero = () => {
                 <div className=' hidden min-[1300px]:flex absolute z-0 mt-20 right-0'>
                     <Icons icon={'elipsthree'} />
                 </div>
-                <h1 className='font-bold lg:text-100 md:text-8xl sm:text text-5xl text-center lg:leading-26 leading-14 text-white max-w-200'>Scale & grow with ease</h1>
+                <h1 className='font-bold lg:text-100 md:text-7xl sm:text-6xl text-5xl text-center lg:leading-26 leading-12 sm:leading-20 text-white max-w-200'>Scale & grow with ease</h1>
                 <p className='mt-3.25 text-white text-26 text-center font-medium leading-100'>Monthly web maintenance packages for businesses. Cancel anytime</p>
                 <div className='h-[107.1px]'>
                     <Button variant="primary" className="mt-10">See Plans</Button>

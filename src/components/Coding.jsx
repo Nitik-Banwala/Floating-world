@@ -5,14 +5,14 @@ import Button from './common/Button'
 const Coding = () => {
     return (
         <div className='flex flex-col items-center'>
-            <div className=' md:pt-40 sm:pt-20 pt-16 lg:pt-[212.1px] bg-white px-4'>
+            <div className='pt-10 sm:pt-12 md:pt-15 lg:pt-20 xl:pt-30 2xl:pt-[212.1px] bg-white px-4'>
                 <h2 className='lg:text-67 md:text-5xl text-4xl font-bold text-center text-black leading-13 md:leading-21.75'>App, web, & AI coding</h2>
-                <div className='flex flex-row gap-x-3 gap-y-5.5 flex-wrap max-w-240 mx-auto justify-center mt-15.75'>
+                <div className='flex flex-row gap-x-3 gap-y-5.5 flex-wrap max-w-240 mx-auto justify-center mt-6 sm:mt-15.75'>
                     {CODING_DATA.map((item, index) => {
                         return (
                             <div key={index}
-                                className='py-4.25 px-7 bg-light-blue w-fit rounded-[62px] flex items-center justify-center'>
-                                <p className='text-white text-base font-semibold leading-100'>{item}</p>
+                                className='sm:py-4.25 py-3 px-4 sm:px-7 bg-light-blue w-fit rounded-[62px] flex items-center justify-center'>
+                                <p className='text-white text-sm sm:text-base font-semibold leading-100'>{item}</p>
                             </div>
                         )
                     })}
@@ -20,7 +20,7 @@ const Coding = () => {
                 <div className='flex flex-row mt-25 gap-x-7.75 sm:gap-y-8.25 gap-y-5 flex-wrap items-center justify-center'>
                     {CODING_CARD.map((project, index) => (
                         <div key={index}>
-                            <div className="group relative sm:w-119 sm:h-119 w-87 h-87 overflow-hidden rounded-3xl gap-7.75">
+                            <div className="group relative lg:w-119 lg:h-119 min-[702.1px]:w-80 w-80 h-80 sm:h-60 sm:w-60 min-[702.1px]:h-80 overflow-hidden rounded-3xl gap-7.75">
                                 <img
                                     src={project.Image}
                                     alt={project.title}

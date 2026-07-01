@@ -4,8 +4,8 @@ const GRADIENT = 'bg-[linear-gradient(180deg,#000000_0%,#393939_100%)] hover:sha
 
 const VARIANTS = {
   primary: `${GRADIENT} py-4.75 px-12 text-xl text-white`,
-  'primary-sm': `${GRADIENT} py-3 px-8 text-base text-white`,
-  'primary-lg': `${GRADIENT} py-7.5 px-[84.5px] text-xl text-white`,
+  'primary-sm': `${GRADIENT} py-2 sm:py-3 px-5 sm:px-8 text-base text-white`,
+  'primary-lg': `${GRADIENT} sm:py-7.5 py-5 px-15 sm:px-[84.5px] text-xl text-white`,
   'primary-wide': `${GRADIENT} py-4.75 px-14 text-xl text-white`,
 }
 
