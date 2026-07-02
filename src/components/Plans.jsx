@@ -7,7 +7,7 @@ const Plans = () => {
     return (
         <div className='bg-gray '>
             <div className='flex mx-auto items-center px-4 flex-col max-w-[1730.1px] w-full md:pt-[138.1px] pt-[57.1px] md:pb-[151.1px] pb-[97.1px]'>
-                <h2 className='text-center flex lg:text-67 md:text-5xl text-4xl w-full mx-auto max-w-200 font-extrabold leading-10 lg:leading-19.25'>We didn’t reinvent the wheel. Just web support</h2>
+                <h2 className='text-center flex lg:text-67 md:text-5xl text-4xl w-full mx-auto max-w-210 font-extrabold leading-10 lg:leading-19.25'>We didn’t reinvent the wheel. Just web support</h2>
                 <p className='mt-5.5 text-26 font-medium text-center leading-100'>Expert Website Scaling, Maintenance, & AI Integration </p>
                 <div className='flex flex-row gap-4 flex-wrap justify-center mt-17.5 max-w-[1380.1px] w-full min-[1100px]:justify-between mx-auto'>
                     {CARD_DATA.map((item, index) => {

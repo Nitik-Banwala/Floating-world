@@ -38,7 +38,7 @@ const Project = () => {
                                 <img
                                     src={project.Image}
                                     alt={project.title}
-                                    className=" absolute z-10 w-full h-full object-cover inset-0"
+                                    className=" absolute w-full h-full object-cover inset-0"
                                 />
 
                                 <div className="absolute bottom-0 left-0 w-full bg-black/50 pt-6 pb-8.75 pl-9 translate-y-full group-hover:translate-y-0 transition-all duration-500">

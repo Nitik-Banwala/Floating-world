@@ -5,8 +5,8 @@ import { WORLD_DATA } from '@/utils/helper'
 
 const World = () => {
     return (
-        <div className='bg-gray pb-17 lg:pb-[189.1px]'>
-            <div className='max-w-[1489.1px] gap-8 flex min-[1300px]:flex-row gap-y-20 items-center flex-col w-full mx-auto px-4 pt-20 lg:pt-[261.1px]'>
+        <div className='bg-gray px-4 pb-17 lg:pb-[189.1px]'>
+            <div className='max-w-[1489.1px] gap-8 flex min-[1300px]:flex-row gap-y-20 items-center flex-col w-full mx-auto pt-20 lg:pt-[261.1px]'>
                 <div className=' absolute right-0 z-0 -mt-10 lg:-mt-30'>
                     <Icons icon={'elipsfour'} />
                 </div>
@@ -82,11 +82,11 @@ const World = () => {
                     <p className='font-medium text-xl text-black mt-3.5 leading-100'>Pause or cancel anytime</p>
                     <hr className='mt-9 mb-9.5 bg-black' />
                     <p className='text-22 text-black mb-5.25 font-semibold leading-100'>Whats included</p>
-                    <div className='grid min-[790px]:grid-cols-2 grid-cols-1 ml-4'>
+                    <div className='grid min-[790px]:grid-cols-2 gap-x-4 grid-cols-1 ml-3.5'>
                         {WORLD_DATA.map((item, index) => {
                             return (
                                 <div key={index}>
-                                    <li className=' text-base max-w-80 2xl:max-w-100 2xl:text-xl font-medium leading-9.5'>{item}</li>
+                                    <li className=' text-base 2xl:text-xl font-medium leading-9.5'>{item}</li>
                                 </div>
                             )
                         })}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GRADIENT = 'bg-[linear-gradient(180deg,#000000_0%,#393939_100%)] hover:shadow-2xl hover:text-red-500'
+const GRADIENT = 'bg-[linear-gradient(180deg,#000000_0%,#393939_100%)] hover:shadow-2xl hover:text-light-blue'
 
 const VARIANTS = {
   primary: `${GRADIENT} py-4.75 px-12 text-xl text-white`,

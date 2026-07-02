@@ -7,7 +7,7 @@ import Button from './common/Button'
 const Money = () => {
     return (
         <div>
-            <div className='bg-white px-4 md:pt-[119.1px] pt-[57.1px] md:pb-[101.1px] pb-[57.1px] text-center max-w-200 w-full flex flex-col mx-auto items-center'>
+            <div className='bg-white px-4 md:pt-[119.1px] pt-[57.1px] md:pb-[101.1px] pb-[57.1px] text-center max-w-220 w-full flex flex-col mx-auto items-center'>
                 <p className='text-22 leading-100 font-medium text-black'>They said it best</p>
                 <p className='text-26 font-medium text-black leading-9 mt-16.75'>The bottom line is that Aaron and FloatingWorld Development are a First Class Operation. Candidly,  I would simply never consider switching my website development business anywhere else</p>
                 <div className='mt-18.25'>
@@ -19,7 +19,7 @@ const Money = () => {
                 </div>
             </div>
             <div className='bg-gray'>
-                <div className='text-center px-4 md:pt-[110.1px] pt-[57.1px] md:pb-[119.1px] pb-[97.1px] max-w-173 w-full flex flex-col mx-auto items-center'>
+                <div className='text-center px-4 md:pt-[110.1px] pt-[57.1px] md:pb-[119.1px] pb-[97.1px] max-w-193 w-full flex flex-col mx-auto items-center'>
                     <h1 className='lg:text-67 md:text-5xl text-4xl text-black/80 font-extrabold leading-10 lg:leading-18.25 max-w-150 '>It’s “you’ll never go back” better</h1>
                     <p className='text-26 font-medium text-black leading-9 mt-8.25'>Floatingworld replaces unreliable freelancers and expensive agencies for one flat monthly fee, with unwavering (fanatical?) support that will blow your mind.</p>
                     <div className='h-[107.1px]'>
