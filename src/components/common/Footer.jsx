@@ -1,5 +1,5 @@
 import React from 'react'
-import { FOOTER_LINKS } from '@/utils/helper'
+import { DATA } from '@/utils/helper'
 import Link from 'next/link'
 const Footer = () => {
     return (
@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='max-w-5xl flex px-4 flex-col mx-auto items-center justify-center '>
                 <p className='2xl:text-103 xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl text-3xl font-bold text-black/80 leading-20.5'>Floatingworld Inc.™</p>
                 <div className='flex flex-row flex-wrap justify-center mt-5 lg:mt-20.75 gap-10 md:gap-[63.1px]'>
-                    {FOOTER_LINKS.map((item, index) => {
+                    {DATA.map((item, index) => {
                         return (
                             <div key={index}>
                                 <Link href="/"

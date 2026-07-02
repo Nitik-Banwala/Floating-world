@@ -2,6 +2,7 @@ import React from 'react'
 import { CODING_DATA } from '@/utils/helper'
 import { CODING_CARD } from '@/utils/helper'
 import Button from './common/Button'
+import Image from 'next/image'
 const Coding = () => {
     return (
         <div className='flex flex-col items-center'>
@@ -21,7 +22,9 @@ const Coding = () => {
                     {CODING_CARD.map((project, index) => (
                         <div key={index}>
                             <div className="group relative lg:w-119 lg:h-119 min-[702.1px]:w-80 w-80 h-80 sm:h-60 sm:w-60 min-[702.1px]:h-80 overflow-hidden rounded-3xl gap-7.75">
-                                <img
+                                <Image
+                                height={476}
+                                width={476}
                                     src={project.Image}
                                     alt={project.title}
                                     className=" absolute w-full h-full object-cover inset-0"

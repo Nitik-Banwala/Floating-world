@@ -5,6 +5,7 @@ import { PROJECTS } from '@/utils/helper';
 
 import "swiper/css";
 import Icons from './common/Icons';
+import Image from 'next/image';
 
 const Project = () => {
     return (
@@ -35,7 +36,9 @@ const Project = () => {
                     {PROJECTS.map((project, index) => (
                         <SwiperSlide key={index}>
                             <div className="group z-10 bg-gray relative w-86 sm:w-full sm:h-119 h-96 overflow-hidden rounded-3xl gap-7.75">
-                                <img
+                                <Image
+                                width={249}
+                                height={95}
                                     src={project.Image}
                                     alt={project.title}
                                     className=" absolute w-full h-full object-cover inset-0"

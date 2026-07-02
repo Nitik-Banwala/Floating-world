@@ -12,42 +12,42 @@ export const SLIDER_DATA = [
 ]
 export const PROJECTS = [
     {
-        Image: "/assets/images/Simply-agile-.png",
+        Image: "/assets/images/Simplyagile.png",
         title: "Project Name",
         text: "Launch Date",
     },
     {
-        Image: "/assets/images/money-talks.png",
+        Image: "/assets/images/moneytalks.png",
         title: "Project Name",
         text: "Launch Date",
     },
     {
-        Image: "/assets/images/royal-art.png",
+        Image: "/assets/images/royalart.png",
         title: "Project Name",
         text: "Launch Date",
     },
     {
-        Image: "/assets/images/Mountain-peak.png",
+        Image: "/assets/images/Mountainpeak.png",
         title: "Project Name",
         text: "Launch Date",
     },
     {
-        Image: "/assets/images/Simply-agile-.png",
+        Image: "/assets/images/Simplyagile.png",
         title: "Project Name",
         text: "Launch Date",
     },
     {
-        Image: "/assets/images/money-talks.png",
+        Image: "/assets/images/moneytalks.png",
         title: "Project Name",
         text: "Launch Date",
     },
     {
-        Image: "/assets/images/royal-art.png",
+        Image: "/assets/images/royalart.png",
         title: "Project Name",
         text: "Launch Date",
     },
     {
-        Image: "/assets/images/Mountain-peak.png",
+        Image: "/assets/images/Mountainpeak.png",
         title: "Project Name",
         text: "Launch Date",
     },
@@ -192,7 +192,7 @@ export const WORLD_DATA = [
     'Keeping software up to date',
     '*Subject to details of intro call'
 ]
-export const FOOTER_LINKS = ['How it works', 'Benefits', 'Services', 'Pricing', 'FAQs']
+
 
 export const FAQ_DATA = [
     {
